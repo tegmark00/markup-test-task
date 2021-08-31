@@ -76,12 +76,13 @@ section.screen {
 .slider-item {
     background: no-repeat center center;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
 }
 
 .slider-content {
     padding-top: 80px;
+    padding-left: 140px;
     display: table-cell;
     vertical-align: middle;
     height: calc(100vh  - 80px);
