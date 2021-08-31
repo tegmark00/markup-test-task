@@ -78,6 +78,15 @@ section.screen {
     width: 100vw;
     min-height: 100vh;
     color: #fff;
+    position: relative;
+}
+
+.owl-dots {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 10px;
 }
 
 .slider-content {
