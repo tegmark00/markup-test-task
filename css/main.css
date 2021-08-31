@@ -63,15 +63,15 @@ section.screen {
 }
 
 .screen-first {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    overflow-x: auto;
+    overflow-x: auto; */
 }
 
-.slider {
+/* .slider {
     display: flex;
     flex-shrink: 0;
-}
+} */
 
 .slider-item {
     background: no-repeat center center;
@@ -202,6 +202,7 @@ h1.heading::before {
     .slider-content {
         padding-left: 30px;
         padding-right: 30px;
+        padding-top: 140px;
     }
 
     .slider-item-text-block {
