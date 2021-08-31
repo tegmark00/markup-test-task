@@ -1,4 +1,154 @@
 body {
-    background: #000;
+    font-family: Helvetica;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.main {
+    background: #2B81C8;
     color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 44px;
+    padding: 0 24px;
+    border: 0;
+    outline: 0;
+}
+
+header {
+    height: 80px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.main-pd {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header-container {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-container-item {
+
+}
+
+.header-title {
+    margin-top: 18px;
+}
+
+.header-title img {
+    height: 36px;
+}
+
+.header-register-btn {
+    margin-top: 18px;
+}
+
+section.screen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.screen-first {
+    background:green;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.slider {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.slider-item {
+    background: no-repeat center center;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+
+.slider-content {
+    padding-top: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    height: calc(100vh  - 80px);
+}
+
+.slider-item-text-block {
+    width: 50%;
+    min-width: 350px;
+}
+
+.slider-item-text-block h1 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.slider-item-text-block h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 5px;
+    width: 75px;
+    z-index: 1;
+    background: #fff;
+}
+
+.slide-1 {
+    background-image: url("../img/slider_01.webp");
+}
+
+.slide-2 {
+    background-image: url("../img/slider_02.webp");
+}
+
+.slide-3 {
+    background-image: url("../img/slider_03.webp");
+}
+
+
+.second {
+    background:#fff;
+}
+
+.screen-content {
+    padding-top: 80px;
+}
+
+h1.heading {
+    position: relative;
+}
+
+h1.heading::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 5px;
+    width: 75px;
+    z-index: 1;
+    background: #2B81C8;
+}
+
+.screen-bg-1 {
+    background: #000;
+}
+
+.c-white {
+    color: #fff
 }
